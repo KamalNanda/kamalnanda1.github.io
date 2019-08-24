@@ -54,8 +54,8 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
-.home h2, .home h3{    animation: moveinleft 1s ;}
-.home h1{ animation: moveinRight 1s ;}
+.home h2, .home h3{    animation: moveinleft 1.5s ;}
+.home h1{ animation: moveinRight 1.7s ;}
 h3{ margin-left:5px;
     margin-bottom:-30px;
     font-size:30px;
@@ -227,10 +227,14 @@ footer h1{
 
 /***************FOOTER***************/
 
-    @keyframes moveinRight{
+@keyframes moveinRight{
         0%{
             opacity: 0;
-            transform: translateX(-120px);
+            transform: translateX(-240px);
+        }
+        80%{
+            opacity: 1;
+            transform: translateX(40px);
         }
         100%{
             opacity: 1;
@@ -241,6 +245,10 @@ footer h1{
         0%{
             opacity: 0;
             transform: translateX(240px);
+        }
+        70%{
+            opacity: 1;
+            transform: translateX(-40px);
         }
         100%{
             opacity: 1;
