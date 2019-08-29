@@ -1,18 +1,10 @@
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
 body{
     margin: 0;
 }
-hr{
+hr{margin-top:-40px;
     width:10%;
     color:black;
-    border-bottom:3px black solid;
-    margin:auto;
+    border-bottom:2px black solid;
 }
 /***************NAVBAR***************/
 .nav{
@@ -62,9 +54,8 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
-.home h3{    animation: moveinleft 1.5s ;}
+.home h2, .home h3{    animation: moveinleft 1.5s ;}
 .home h1{ animation: moveinRight 1.7s ;}
-.home h2{width:70%;animation: moveinleft 1.5s ;}
 h3{ margin-left:5px;
     margin-bottom:-30px;
     font-size:30px;
@@ -74,7 +65,7 @@ h3{ margin-left:5px;
 h2{
     font-size:30px;
     color:#d7d7d7;
-    margin-top:-20px;
+    margin-top:-85px;
     margin-left:5px;
 
 }
@@ -126,7 +117,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top:100px;
+    margin-top:150px;
     width: 80%;
     margin-left: 10%;
 }
@@ -179,22 +170,16 @@ ul{
     align-items: center;
     width: 80%;
     margin-left: 10%;
- 
 }
 .work-image{
     width: 200px;
     height: 200px;
-    margin-top:-60px;
+    margin-top:-120px;
 }
 .work p{
     color: #4b4545;
     font-weight: 550;
     margin-left: 40px;
-}
-.work a:hover{
-        transform: scale(1.05);
-       
-        padding-bottom:10px;
 }
 /***************WORK***************/
 
@@ -221,10 +206,6 @@ ul{
     height: 200px;
     margin-top:-120px;
 }
-.contact a:hover{
-    transform: scale(1.05);
-   
-}
 /***************CONTACT***************/
 
 /***************FOOTER***************/
@@ -246,7 +227,7 @@ footer h1{
 
 /***************FOOTER***************/
 
-    @keyframes moveinRight{
+@keyframes moveinRight{
         0%{
             opacity: 0;
             transform: translateX(-240px);
@@ -274,28 +255,34 @@ footer h1{
             transform: translate(0);
         }
     }
-        @media (max-width: 320px)
+    
+@media (max-width: 1000px)
     {
        body{width:100vh;}
        .home {height:160vh;}
        .home h1{font-size:70px;}
-       .home h2{font-size:30px;margin-top:-50px;}
+       .home h2{font-size:30px;margin-top:-50px;width:97%}
        .header{margin:auto;margin-top:50vh;margin-left:40px;}
        .about-flex{display:block;margin-left:20px;}
-       .about-para{margin-left:0px;width:90%;}
-       .about{height:150vh;} 
+       .about-para{margin-left:0px;width:80%;}
+       .about{height:120vh;} 
+       .about h1 {margin-left:-140px;} 
+       .photo{width:60%;height:70%;margin-left:65px;}
        .education-flex{display:block; margin-left:60px;}
-       .education{height:100vh}
-       .education div{margin-top:120px}
+       .education{height:100vh;margin-left:-100px;}
+       .education div{margin-top:160px}
        .education h2{font-size:40px;text-align:center;} 
        .education p{margin-top:-20px;font-size:25px;text-align:center;} 
-       .skill{height:100vh} 
+       .skill{height:80vh} .skill h1{margin-left:-140px;} 
        .skill li{margin-left:-40px;font-size:40px;margin-bottom:15px;}
-       .work{height:155vh;}
-       .work div{margin-left:80px;margin-bottom:100px;display:grid}
-       .work p{margin-top:0}
+       .work{height:145vh;} .work h1{margin-left:-140px}
+       .work div{margin-left:80px;margin-bottom:150px;display:grid}
+       .work p{margin-top:0;margin-left:60px;}
+       .work-image{width:260px;height:200%;}
        .contact img{width:50px;height:50px;}
-       .contact{height:50vh}
-       .contact-flex{height:0px;}
+       .contact{height:50vh} .contact h1{margin-left:-140px}
+       .contact-flex{height:0px;width:40%;margin-left:164px;}
+        .nav-right{width:100%}
 
     }    
+© 2019 GitHub, Inc.
