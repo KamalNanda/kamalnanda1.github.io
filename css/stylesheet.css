@@ -258,5 +258,11 @@ footer h1{
     
 @media (max-width: 1000px)
     {
-      
+        .nav{width:737.5px;}
+        .nav-right{margin-right:220px;;float:right}
+        .home{width:737.5px;}
+        .home h1{width:530px;font-size:76px;margin-left:-100px;}
+        .home h3{margin-left:-96px;margin-top:100px;}
+        .home h2{margin-left:-96px;margin-top:-70px;}
     }    
+   
