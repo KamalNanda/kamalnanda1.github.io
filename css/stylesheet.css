@@ -1,3 +1,10 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
 body{
     margin: 0;
 }
@@ -5,6 +12,7 @@ hr{margin-top:-40px;
     width:10%;
     color:black;
     border-bottom:2px black solid;
+    margin-left: 45%;
 }
 /***************NAVBAR***************/
 .nav{
@@ -65,7 +73,7 @@ h3{ margin-left:5px;
 h2{
     font-size:30px;
     color:#d7d7d7;
-    margin-top:-85px;
+    margin-top:-20px;
     margin-left:5px;
 
 }
@@ -80,6 +88,7 @@ h2{
     color: black;
     text-align: center;
     font-size:60px;
+    margin-bottom:40px;
    
 }
 
@@ -112,12 +121,13 @@ h2{
     color: black;
     text-align: center;
     font-size:60px;
+    margin-bottom:40px;
 }
 .education-flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top:150px;
+    margin-top:100px;
     width: 80%;
     margin-left: 10%;
 }
@@ -141,6 +151,7 @@ h2{
     color: black;
     text-align: center;
     font-size:60px;
+    margin-bottom:40px;
 }
 li{
     color: #00a651;
@@ -163,6 +174,7 @@ ul{
     color: black;
     text-align: center;
     font-size:60px;
+    margin-bottom:40px;
 }
 .work-flex{
     display: flex;
@@ -170,11 +182,15 @@ ul{
     align-items: center;
     width: 80%;
     margin-left: 10%;
+    
 }
 .work-image{
     width: 200px;
     height: 200px;
-    margin-top:-120px;
+    margin-top:-80px;
+}
+.work img:hover {
+    transform: scale(1.1);
 }
 .work p{
     color: #4b4545;
@@ -192,6 +208,7 @@ ul{
     color: black;
     text-align: center;
     font-size:60px;
+    margin-bottom:40px;
 }
 .contact-flex{
     display: flex;
@@ -206,6 +223,10 @@ ul{
     height: 200px;
     margin-top:-120px;
 }
+.contact img:hover {
+    transform: scale(1.1);
+}
+
 /***************CONTACT***************/
 
 /***************FOOTER***************/
@@ -256,13 +277,27 @@ footer h1{
         }
     }
     
-@media and only screen (max-width: 1000px)
-    {
-        .nav{width:737.5px;}
-        .nav-right{margin-right:220px;;float:right}
-        .home{width:737.5px;}
-        .home h1{width:530px;font-size:76px;margin-left:-100px;}
-        .home h3{margin-left:-96px;margin-top:100px;}
-        .home h2{margin-left:-96px;margin-top:-70px;}
+@media only screen and (max-width: 1000px)
+    {   body{width:128%;}
+        .home{width:100%;}
+        .home h2 , h3{font-size:100%;}
+        .home h3{margin-top:100px;margin-bottom:0px;}
+        .home h2{margin-top:0px;}
+        .home h1{font-size:50px;}
+        .header{margin-left:40px;}
+        .about-flex{ display:block;}
+        .about{height:160vh;}  
+        .contact-flex{display:block;}
+        .work{height:150vh;}
+        .about-para{width:90%;margin-left:30px;margin-top:30px;font-size:30px;}
+        .work-image{width:50%;height:50%;}
+        .work div{ margin-bottom:80px;}
+        .work p{margin-left:85px;}
+        .work{height:120vh;}
+        .photo{margin-left:56px;}
+        .work-flex{display:block;}
+        .education{height:90vh;}
+        .education-flex{display:block;margin-left:40px;}
+        .education div{margin-bottom:50px;text-align:center}
+        .skill li{font-size:34px;margin-left:-20px;}
     }    
-   
