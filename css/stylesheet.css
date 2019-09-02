@@ -286,23 +286,25 @@ footer h1{
         .home h1{font-size:50px;}
         .header{margin-left:40px;}
         .about-flex{ display:block;}
-        .about{height:120vh;}  
-        .contact-flex{display:block;}
+        .about{height:125vh;}  
+        .contact-flex{display:flex;}
+        .contact{height:35vh;}
+        .contact-image{width:50px; height:50px;margin-bottom:70px;}
         .work{height:150vh;}
         .about-para{width:90%;margin-left:30px;margin-top:30px;font-size:30px;}
         .work-image{width:50%;height:50%;}
         .work div{ margin-bottom:80px;}
         .work p{margin-left:85px;}
         .work{height:90vh;}
-        .photo{margin-left:56px;}
+        .photo{margin-left:36px;}
         .work-flex{display:block;}
         .education{height:70vh;}
         .education-flex{display:block;margin-left:40px;}
         .education div{margin-bottom:50px;text-align:center}
-        .skill li{font-size:34px;margin-left:-20px;}
+        .skill li{font-size:34px;margin-left:-40px;}
         .nav {width:100%;}
         .skill{height:60vh;}
         .nav a{font-size:12px;margin-right:-20px;}
         .nav-right{margin-left:20px; }
-        footer h1{font-size:16px;}
+        footer h1{font-size:16px;margin-top:15px;}
     }    
