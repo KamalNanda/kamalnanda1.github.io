@@ -248,6 +248,64 @@ footer h1{
 
 /***************FOOTER***************/
 
+/***************PHOTOS***************/
+.body_photo{
+    margin-right:0;
+}
+.photo_header{
+    color: black;
+    font-size:80px;
+    text-align: center;
+    margin-bottom:40px;
+}
+main{
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+.grid_photo{
+    display:grid;
+    grid-template-columns: 50%  50%;
+        grid-gap:30px;
+        grid-auto-columns: 10px; 
+        
+   
+}
+span img{
+    width:80%;
+    border:5px black;
+    
+    border-radius: 10px;
+    
+}
+.grid-card
+{
+    cursor: pointer;
+}
+span img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px;
+
+}
+
+.img1{width:95%;}
+.img2{width:90%;margin-left:-50px;}
+.img3{width:80%; height:90%;}
+.img4{width:100%;margin-left:-100px;}
+.img5{width:100%;height:620px}
+.img6{margin-top:40px;margin-left:-50px;}
+.img7{width:100%}
+.img8{margin-top:-100px;margin-left:-50px;}
+.img9{width:100%;}
+.img10{margin-top:-140px;margin-left:-50px;}
+.img11{margin-left:50px;}
+.img12{height:700px;margin-left:-50px;}
+.img13{height:600px;width:450px;}
+.img14{width:110%;margin-left:-130px;margin-top:80px;}
+
+
+/***************PHOTOS***************/
+
 @keyframes moveinRight{
         0%{
             opacity: 0;
@@ -278,33 +336,26 @@ footer h1{
     }
     
 @media only screen and (max-width: 1000px)
-    {   body{width:100%;}
+    {   body{width:128%;}
         .home{width:100%;}
-        .home h2 , h3{font-size:100%;width:70%}
+        .home h2 , h3{font-size:100%;}
         .home h3{margin-top:100px;margin-bottom:0px;}
         .home h2{margin-top:0px;}
         .home h1{font-size:50px;}
         .header{margin-left:40px;}
         .about-flex{ display:block;}
-        .about{height:125vh;}  
-        .contact-flex{display:flex;}
-        .contact{height:35vh;}
-        .contact-image{width:50px; height:50px;margin-bottom:70px;}
+        .about{height:160vh;}  
+        .contact-flex{display:block;}
         .work{height:150vh;}
         .about-para{width:90%;margin-left:30px;margin-top:30px;font-size:30px;}
         .work-image{width:50%;height:50%;}
         .work div{ margin-bottom:80px;}
         .work p{margin-left:85px;}
-        .work{height:90vh;}
-        .photo{margin-left:36px;}
+        .work{height:120vh;}
+        .photo{margin-left:56px;}
         .work-flex{display:block;}
-        .education{height:70vh;}
+        .education{height:90vh;}
         .education-flex{display:block;margin-left:40px;}
         .education div{margin-bottom:50px;text-align:center}
-        .skill li{font-size:34px;margin-left:-40px;}
-        .nav {width:100%;}
-        .skill{height:60vh;}
-        .nav a{font-size:12px;margin-right:-20px;}
-        .nav-right{margin-left:20px; }
-        footer h1{font-size:16px;margin-top:15px;}
+        .skill li{font-size:34px;margin-left:-20px;}
     }    
