@@ -1,372 +1,72 @@
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-body{
-    margin: 0;
-}
-hr{margin-top:-40px;
-    width:10%;
-    color:black;
-    border-bottom:2px black solid;
-    margin-left: 45%;
-}
-/***************NAVBAR***************/
-.nav{
-    display: flex;
-    background-color:#005b7f; 
-    width: 100%;
-    height: 7vh;
-    overflow: hidden;
-}
-a{
-    text-decoration: none;
-    padding: 0 5px 0 5px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-.nav-right{
-    float: right;
-    margin-left:auto;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photos</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+<body class="body_photo">
+        <nav class="navPhoto">
+                <div class="nav-right">
+                    <a href="./index.html">Home</a>                           
+                </div>                        
+            </nav>
 
-/***************NAVBAR***************/
+        <h1 class="photo_header">Photos</h1>
+        <hr>
 
-/***************HOME***************/
-.home{
-    background-color: #00a651;
-    height: 80vh;
-    margin: 0;
-    position: relative;
-    
-}
-.header{
-    margin-left: 28%;
-    margin-top:10%; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    
-}
-h1{ 
-    margin-top:0;
-    font-size: 100px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
-}
-.home h2, .home h3{    animation: moveinleft 1.5s ;}
-.home h1{ animation: moveinRight 1.7s ;}
-h3{ margin-left:5px;
-    margin-bottom:-30px;
-    font-size:30px;
-    color:#d7d7d7;
-    animation: moveinleft 1s ;
-}
-h2{
-    font-size:30px;
-    color:#d7d7d7;
-    margin-top:-20px;
-    margin-left:5px;
+    <main class="grid_photo">
+       <a class="grid-card " href="./media/photos/Batman.jpg"> <span >
+            <img src="./media/photos/Batman.jpg" class="img1" id="myImg" alt="Batman">
+        </span></a>
+      
+        <a class="grid-card" href="./media/photos/Space city.jpg"> <span >
+            <img src="./media/photos/Space city.jpg" class=" img2" alt="">
+        </span></a>
+        <a class="grid-card" href="./media/photos/Women Team.jpg"> <span >
+            <img src="./media/photos/Women Team.jpg" class=" img3"  alt="">
+        </span></a>
+        <a class="grid-card" href="./media/photos/Untitled-2.jpg"> <span >
+            <img src="./media/photos/Untitled-2.jpg" class="img4" alt="">
+        </span></a>
+        <a class="grid-card"  href="./media/photos/hulk smash.jpg"> <span>
+            <img src="./media/photos/hulk smash.jpg" class="img5"alt="">
+        </span></a>
+        <a  class="grid-card" href="./media/photos/thor.jpg"> <span>
+            <img src="./media/photos/thor.jpg" class="img6" alt="">
+        </span></a>
+        <a class="grid-card" href="./media/photos/codmw3.jpg"> <span>
+                <img src="./media/photos/codmw3.jpg" class="img7" alt="">
+            </span></a>
+            <a  class="grid-card" href="./media/photos/drop hunt.jpg"> <span>
+                <img src="./media/photos/drop hunt.jpg" class="img8" alt="">
+            </span></a>
+            <a class="grid-card" href="./media/photos/cyclist.jpg"> <span>
+                <img src="./media/photos/cyclist.jpg" class="img9" alt="">
+            </span>    </a>
+            <a class="grid-card" href="./media/photos/ironman.jpg"> <span>
+                <img src="./media/photos/ironman.jpg" class="img10" alt="">
+        </span></a>
+        <a class="grid-card" href="./media/photos/captain.jpg"> <span>
+            <img src="./media/photos/captain.jpg" class="img11" alt="">
+        </span></a>
+        <a class="grid-card" href="./media/photos/Desert Scene (2.jpg"> <span>
+                <img src="./media/photos/Desert Scene (2).jpg" class="img12" alt="">
+        </span></a>
+        <a class="grid-card" href="./media/photos/Beach Scene.jpg"> <span>
+                <img src="./media/photos/Beach Scene.jpg" class="img13" alt="">
+        </span></a>
+        <a class="grid-card" href="./media/photos/drop hunt at night.jpg">  <span>
+                <img src="./media/photos/drop hunt at night.jpg" class="img14" alt="">
+        </span></a>
+    </main>
+   <!-- The Modal -->
 
-}
-
-/***************HOME***************/
-
-/***************ABOUT***************/
-.about{
-    height: 80vh;
-}
-.about h1{
-    color: black;
-    text-align: center;
-    font-size:60px;
-    margin-bottom:40px;
-   
-}
-
-.about-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.photo{
-    margin-top:20px;
-    width:300px;
-    height:350px;
-    margin-left:100px;
-}
-.about-para{  width: 60%;
-    font-family: 'Rockwell';
-    color:#00a651;
-    font-size: 32px;
-    margin-right:100px;
-}
-/***************ABOUT***************/
-
-/***************EDUCATION***************/
-.education{
-    height:50vh;
-    background: #e1e1e1;
-    font-family: 'Rockwell';
-}
-.education h1{
-    color: black;
-    text-align: center;
-    font-size:60px;
-    margin-bottom:40px;
-}
-.education-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top:100px;
-    width: 80%;
-    margin-left: 10%;
-}
-.education h2{
-    color: #00a651;
-    margin-left:-5px;
-}
-.education p{
-    color: #4b4545;
-    font-weight: 600;
-}
-
-/***************EDUCATION***************/
-
-/***************SKILL***************/
-
-.skill{
-    height:80vh;
-}
-.skill h1{
-    color: black;
-    text-align: center;
-    font-size:60px;
-    margin-bottom:40px;
-}
-li{
-    color: #00a651;
-    font-family: 'Rockwell';
-    font-size: 50px;
-}
-ul{
-    margin-left: 100px;
-    margin-top: 50px;
-}
-/***************SKILL***************/
-
-/***************WORK***************/
-.work{
-    height:60vh;
-    background: #e1e1e1;
-    font-family: 'Rockwell'
-}
-.work h1{
-    color: black;
-    text-align: center;
-    font-size:60px;
-    margin-bottom:40px;
-}
-.work-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin-left: 10%;
-    
-}
-.work-image{
-    width: 200px;
-    height: 200px;
-    margin-top:-80px;
-}
-.work img:hover {
-    transform: scale(1.1);
-}
-.work p{
-    color: #4b4545;
-    font-weight: 550;
-    margin-left: 40px;
-}
-/***************WORK***************/
-
-/***************CONTACT***************/
-
-.contact{
-    height: 60vh;
-}
-.contact h1{
-    color: black;
-    text-align: center;
-    font-size:60px;
-    margin-bottom:40px;
-}
-.contact-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin-left: 10%;
-    margin-top:150px;
-}
-.contact-image{
-    width: 200px;
-    height: 200px;
-    margin-top:-120px;
-}
-.contact img:hover {
-    transform: scale(1.1);
-}
-
-/***************CONTACT***************/
-
-/***************FOOTER***************/
-
-footer {
-    background-color:#005b7f; 
-    width: 100%;
-    height: 7vh;
-    overflow: hidden;
-    margin:0;
-}
-footer h1{
-    font-size:30px;
-    color:white;
-    margin-left:20px;
-    margin-top:5px;
-}
-
-
-/***************FOOTER***************/
-
-/***************PHOTOS***************/
-.body_photo{
-    margin-right:0;
-}
-.photo_header{
-    color: black;
-    font-size:80px;
-    text-align: center;
-    margin-bottom:40px;
-}
-main{
-    margin-left: 60px;
-    margin-top: 100px;
-    margin-right: 40px;
-}
-.grid_photo{
-    display:grid;
-    grid-template-columns: 50%  50%;
-        grid-gap:30px;
-        grid-auto-columns: 10px; 
-        
-   
-}
-span img{
-    width:80%;
-    border:5px black;
-    
-    border-radius: 10px;
-    
-}
-.grid-card
-{
-    cursor: pointer;
-}
-span img:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 0px;
-
-}
-
-.img1{width:95%;}
-.img2{width:90%;margin-left:-50px;}
-.img3{width:80%; height:90%;}
-.img4{width:100%;margin-left:-100px;}
-.img5{width:100%;height:620px}
-.img6{margin-top:40px;margin-left:-50px;}
-.img7{width:100%}
-.img8{margin-top:-100px;margin-left:-50px;}
-.img9{width:100%;}
-.img10{margin-top:-140px;margin-left:-50px;}
-.img11{margin-left:50px;}
-.img12{height:700px;margin-left:-50px;}
-.img13{height:600px;width:450px;}
-.img14{width:110%;margin-left:-130px;margin-top:80px;}
-
-
-/***************PHOTOS***************/
-
-@keyframes moveinRight{
-        0%{
-            opacity: 0;
-            transform: translateX(-240px);
-        }
-        80%{
-            opacity: 1;
-            transform: translateX(40px);
-        }
-        100%{
-            opacity: 1;
-            transform: translate(0);
-        }
-    }
-    @keyframes moveinleft{
-        0%{
-            opacity: 0;
-            transform: translateX(240px);
-        }
-        70%{
-            opacity: 1;
-            transform: translateX(-40px);
-        }
-        100%{
-            opacity: 1;
-            transform: translate(0);
-        }
-    }
-    
-@media only screen and (max-width: 1000px)
-    {   body{width:100%;}
-        .home{width:100%;}
-        .body_photo{width:100%;}
-        .grid_photo{display:block;}
-        .img2 , .img3 , .img4,  .img7,.img8, .img9,.img10,.img11 , .img12,.img13,.img14{
-            margin-left:auto;margin-right:auto;margin-top:auto;width:300px;height:200px;}
-            .img13 , .img12{height:550px;width:300px; margin-bottom:15px;}
-        .nav a{font-size:16px;margin-left:-15px;}
-        .img5 , .img6 , .img10,.img11{height:350px;width:300px;margin:auto;}
-        .home h2 , h3{font-size:115%;}
-        .home h3{margin-top:100px;margin-bottom:0px;}
-        .home h2{margin-top:0px;width:70%;}
-        .home h1{font-size:50px;}
-        .header{margin-left:40px;}
-        .about-flex{ display:block;}
-        .about{height:120vh;}  
-        .contact-image{margin-bottom:50px;;width:60px;height:60px;}
-        .contact{height:40vh;}
-        .work{height:150vh;}
-        .about-para{width:90%;margin-left:30px;margin-top:30px;font-size:30px;}
-        .work-image{width:50%;height:50%;}
-        .work div{ margin-bottom:80px;}
-        .work p{margin-left:85px;}
-        .work{height:90vh;}
-        .photo{margin-left:56px;}
-        .work-flex{display:contents;}
-        .work-image{}
-        footer h1{font-size:20px;}
-        .education{height:70vh;}
-        .education-flex{display:block;margin-left:40px;}
-        .education div{margin-bottom:50px;text-align:center}
-        .skill li{font-size:34px;margin-left:-40px;}
-        .skill{height:60vh;}
-    }    
+    <footer style="margin-top:20px;">
+            <h1>Designed and Developed by Kamal Nanda</h1>
+        </footer>
+        <script src="overlay.js"></script>
+</body>
+</html>
