@@ -336,26 +336,32 @@ span img:hover{
     }
     
 @media only screen and (max-width: 1000px)
-    {   body{width:128%;}
+    {   body{width:100%;}
         .home{width:100%;}
-        .home h2 , h3{font-size:100%;}
+
+        .nav a{font-size:16px;margin-left:-15px;}
+        .home h2 , h3{font-size:115%;}
         .home h3{margin-top:100px;margin-bottom:0px;}
-        .home h2{margin-top:0px;}
+        .home h2{margin-top:0px;width:70%;}
         .home h1{font-size:50px;}
         .header{margin-left:40px;}
         .about-flex{ display:block;}
-        .about{height:160vh;}  
-        .contact-flex{display:block;}
+        .about{height:120vh;}  
+        .contact-image{margin-bottom:50px;;width:60px;height:60px;}
+        .contact{height:40vh;}
         .work{height:150vh;}
         .about-para{width:90%;margin-left:30px;margin-top:30px;font-size:30px;}
         .work-image{width:50%;height:50%;}
         .work div{ margin-bottom:80px;}
         .work p{margin-left:85px;}
-        .work{height:120vh;}
+        .work{height:90vh;}
         .photo{margin-left:56px;}
-        .work-flex{display:block;}
-        .education{height:90vh;}
+        .work-flex{display:contents;}
+        .work-image{}
+        footer h1{font-size:20px;}
+        .education{height:70vh;}
         .education-flex{display:block;margin-left:40px;}
         .education div{margin-bottom:50px;text-align:center}
-        .skill li{font-size:34px;margin-left:-20px;}
+        .skill li{font-size:34px;margin-left:-40px;}
+        .skill{height:60vh;}
     }    
