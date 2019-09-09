@@ -338,8 +338,13 @@ span img:hover{
 @media only screen and (max-width: 1000px)
     {   body{width:100%;}
         .home{width:100%;}
-
+        .body_photo{width:100%;}
+        .grid_photo{display:block;}
+        .img2 , .img3 , .img4,  .img7,.img8, .img9,.img10,.img11 , .img12,.img13,.img14{
+            margin-left:auto;margin-right:auto;margin-top:auto;width:300px;height:200px;}
+            .img13 , .img12{height:550px;width:300px; margin-bottom:15px;}
         .nav a{font-size:16px;margin-left:-15px;}
+        .img5 , .img6 , .img10,.img11{height:350px;width:300px;margin:auto;}
         .home h2 , h3{font-size:115%;}
         .home h3{margin-top:100px;margin-bottom:0px;}
         .home h2{margin-top:0px;width:70%;}
