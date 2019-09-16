@@ -353,11 +353,11 @@ span img:hover{
         .header{margin:auto;margin-left:30%;}
         .about-flex{ display:block;}
         .about{height:130vh;}  
-        .contact-image{margin-bottom:150px;;width:60px;height:60px;}
-        .contact{height:40vh;}
+        .contact-image{margin-bottom:40px;;width:80px;height:80px;}
+        .contact{height:60vh;}
         .work{height:55vh;}
         .about-para{width:90%;margin-left:30px;margin-top:30px;font-size:30px;}
-      
+        footer{display}
         .work-image{width:80px;height:80px;margin-left:50px; }
         .photo{margin-left:30%}
         footer h1{font-size:20px;}
