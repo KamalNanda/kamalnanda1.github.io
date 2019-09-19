@@ -166,7 +166,7 @@ ul{
 
 /***************WORK***************/
 .work{
-    height:60vh;
+    height:55vh;
     background: #e1e1e1;
     font-family: 'Rockwell'
 }
@@ -187,7 +187,7 @@ ul{
 .work-image{
     width: 200px;
     height: 200px;
-    margin-top:-80px;
+    margin-top:40px;
 }
 .work img:hover {
     transform: scale(1.1);
