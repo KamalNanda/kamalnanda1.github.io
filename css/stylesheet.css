@@ -379,3 +379,10 @@ span img:hover{
         .skill li{font-size:34px;margin-left:-40px;}
         .skill{height:80vh;}
     }    
+ @media (max-width:375px){
+     footer h1{font-size:17px;margin-top:15px;} 
+     .photo{position:relative;left:-25px;}
+     .nav a{font-size:15.5px; margin-left:-22px;}
+     .contact-flex {position:absolute;left:-25px;}
+   
+    }
