@@ -386,3 +386,14 @@ span img:hover{
      .contact-flex {position:absolute;left:-25px;}
    
     }
+@media (max-width:320px){
+        .home, .education , .nav, .work , footer{width:114%;}
+        .home h3{margin-top:0px;}
+        .nav a{margin-left:-24px;}
+        .about{height:190vh !important;}
+        .education{height:90vh !important;}
+        .skill{height:100vh !important;}
+        .work{height:120vh !important;}
+        .contact h1{width:110%}
+        .contact{height:50vh !important;}
+    }
