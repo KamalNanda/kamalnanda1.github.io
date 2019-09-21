@@ -384,13 +384,17 @@ span img:hover{
      .photo{position:relative;left:-25px;}
      .nav a{font-size:15.5px; margin-left:-22px;}
      .contact-flex {position:absolute;left:-25px;}
-   
+    .about{height:180vh !important;}
+    .education{height:90vh !important;}
+    .skill{height:90vh !important;}
+    .work{height:120vh !important;}
+    .contact{height:50vh !important;}
     }
 @media (max-width:320px){
         .home, .education , .nav, .work , footer{width:114%;}
         .home h3{margin-top:0px;}
         .nav a{margin-left:-24px;}
-        .about{height:190vh !important;}
+        .about{height:190vh !important; }
         .education{height:90vh !important;}
         .skill{height:100vh !important;}
         .work{height:120vh !important;}
