@@ -380,6 +380,9 @@ span img:hover{
         .education-flex{display:block !important;}
         .education{height:65vh !important;}
         .contact{height:40vh !important;}
+		 .mh{font-size:28px;}
+        .site_body{display:block;}
+		.web-heading{font-size:20px;padding-bottom:3px;}
     }
 @media only screen and (max-width: 768px)
     {   body{width:100%;height:auto;}
@@ -434,4 +437,5 @@ span img:hover{
         .work{height:120vh !important;}
         .contact h1{width:110%}
         .contact{height:50vh !important;}
+		#sf{font-size:15px;}
     }
